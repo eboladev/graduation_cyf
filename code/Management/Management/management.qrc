@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="Management">
+    <file>Resources/ass backgroud image.jpg</file>
+    <file>Resources/ass modify backgroud image.jpg</file>
+    <file>Resources/backcolor.jpg</file>
+    <file>Resources/client backgroud image.jpg</file>
+    <file>Resources/database backgroud image.jpg</file>
+    <file>Resources/depot backgroud image.jpg</file>
+    <file>Resources/emp backgroud image.jpg</file>
+    <file>Resources/emp modify backgroud image.jpg</file>
+    <file>Resources/goods backgroud image.jpg</file>
+    <file>Resources/goods modify backgroud image.jpg</file>
+    <file>Resources/help.gif</file>
+    <file>Resources/ico.ico</file>
+    <file>Resources/login backgroud image.jpg</file>
+    <file>Resources/op backgroud image.jpg</file>
+    <file>Resources/pres backgroud image.jpg</file>
+    <file>Resources/pres modify backgroud image.jpg</file>
+    <file>Resources/pres rec backgroud image.jpg</file>
+    <file>Resources/right backgroud image.jpg</file>
+    <file>Resources/sell backgroud image.jpg</file>
+    <file>Resources/stock backgroud image.jpg</file>
+  </qresource>
+</RCC>

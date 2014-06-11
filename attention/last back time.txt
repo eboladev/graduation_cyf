@@ -1,0 +1,11 @@
+	time				work
+2010 - 12 - 13	UI
+2010 - 12 - 17	DB
+2011 - 01 - 21       part of Client
+2011 - 01 - 23       part of Client
+2011 - 01 - 26       part of Client	
+2011 - 01 - 26	part of Client
+2011 - 01 - 29	part of mgmt
+2011 - 02 - 16	part of mgmt
+2011 - 02 - 18	only ui
+2011 - 03 - 15	all

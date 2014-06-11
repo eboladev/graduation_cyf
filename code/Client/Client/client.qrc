@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Client">
+    <file>Resources/database backgroud image.jpg</file>
+    <file>Resources/backcolor.jpg</file>
+    <file>Resources/help.gif</file>
+    <file>Resources/ico.ico</file>
+    <file>Resources/client backgroud image.jpg</file>
+    <file>Resources/login backgroud image.jpg</file>
+    <file>Resources/right backgroud image.jpg</file>
+  </qresource>
+</RCC>

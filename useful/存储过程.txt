@@ -1,0 +1,10 @@
+if Null is Null then
+SELECT 23;
+else  
+SELECT 45;   
+end IF;
+
+IF search_condition THEN statement_list
+  [ELSEIF search_condition THEN statement_list] ...
+  [ELSE statement_list]
+END IF

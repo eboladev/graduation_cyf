@@ -1,0 +1,17 @@
+	QSqlQuery query;
+	QString words;
+	
+	words = "select * from 图书属性 where ISBN = " + isbn;
+	query.exec(words);
+	if(!query.next())
+	{
+		QMessageBox::information(this,"提示","图书信息表中不存在此ISBN号的图书，请联系管理员添加此图书信息！");
+		return ;
+	}	
+	
+	words = "insert into 仓库 values('" + isbn + "'," + count + ")";
+	query.exec(words);
+
+	事务：(精通Qt4编程.pdf P308)
+	QSqlDataBase::database().transaction();
+	QSqlDataBase::database().commit();

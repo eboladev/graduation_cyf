@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="management"
+	ProjectGUID="{7869C149-741B-3621-9ADE-6CB6C5A2BA53}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot;,&quot;.&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,d:\study\IDE\qt-win-opensource-vs2008\mkspecs\default"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_SQL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\study\IDE\qt-win-opensource-vs2008\lib\qtmaind.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtSqld4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtGuid4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="d:\study\IDE\qt-win-opensource-vs2008\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="debug\management.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_SQL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot;,&quot;.&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,d:\study\IDE\qt-win-opensource-vs2008\mkspecs\default"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_SQL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\study\IDE\qt-win-opensource-vs2008\lib\qtmain.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtSql4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtGui4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="d:\study\IDE\qt-win-opensource-vs2008\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="release\management.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_SQL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="associator.cpp" />
+			<File
+				RelativePath="associatorModify.cpp" />
+			<File
+				RelativePath="dataClass.cpp" />
+			<File
+				RelativePath="databaseSet.cpp" />
+			<File
+				RelativePath="depot.cpp" />
+			<File
+				RelativePath="employee.cpp" />
+			<File
+				RelativePath="employeeModify.cpp" />
+			<File
+				RelativePath="goods.cpp" />
+			<File
+				RelativePath="goodsModify.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="management.cpp" />
+			<File
+				RelativePath="present.cpp" />
+			<File
+				RelativePath="presentModify.cpp" />
+			<File
+				RelativePath="queryThread.cpp" />
+			<File
+				RelativePath="right.cpp" />
+			<File
+				RelativePath="sell.cpp" />
+			<File
+				RelativePath="specialOP.cpp" />
+			<File
+				RelativePath="stock.cpp" />
+			<File
+				RelativePath="userLogin.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="associator.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;associator.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 associator.h -o debug\moc_associator.cpp"
+						Description="MOC associator.h"
+						Outputs="debug\moc_associator.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;associator.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 associator.h -o release\moc_associator.cpp"
+						Description="MOC associator.h"
+						Outputs="release\moc_associator.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="associatorModify.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;associatorModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 associatorModify.h -o debug\moc_associatorModify.cpp"
+						Description="MOC associatorModify.h"
+						Outputs="debug\moc_associatorModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;associatorModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 associatorModify.h -o release\moc_associatorModify.cpp"
+						Description="MOC associatorModify.h"
+						Outputs="release\moc_associatorModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="dataClass.h" />
+			<File
+				RelativePath="databaseSet.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;databaseSet.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 databaseSet.h -o debug\moc_databaseSet.cpp"
+						Description="MOC databaseSet.h"
+						Outputs="debug\moc_databaseSet.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;databaseSet.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 databaseSet.h -o release\moc_databaseSet.cpp"
+						Description="MOC databaseSet.h"
+						Outputs="release\moc_databaseSet.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="depot.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;depot.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 depot.h -o debug\moc_depot.cpp"
+						Description="MOC depot.h"
+						Outputs="debug\moc_depot.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;depot.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 depot.h -o release\moc_depot.cpp"
+						Description="MOC depot.h"
+						Outputs="release\moc_depot.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="employee.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;employee.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 employee.h -o debug\moc_employee.cpp"
+						Description="MOC employee.h"
+						Outputs="debug\moc_employee.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;employee.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 employee.h -o release\moc_employee.cpp"
+						Description="MOC employee.h"
+						Outputs="release\moc_employee.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="employeeModify.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;employeeModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 employeeModify.h -o debug\moc_employeeModify.cpp"
+						Description="MOC employeeModify.h"
+						Outputs="debug\moc_employeeModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;employeeModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 employeeModify.h -o release\moc_employeeModify.cpp"
+						Description="MOC employeeModify.h"
+						Outputs="release\moc_employeeModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="goods.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;goods.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 goods.h -o debug\moc_goods.cpp"
+						Description="MOC goods.h"
+						Outputs="debug\moc_goods.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;goods.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 goods.h -o release\moc_goods.cpp"
+						Description="MOC goods.h"
+						Outputs="release\moc_goods.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="goodsModify.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;goodsModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 goodsModify.h -o debug\moc_goodsModify.cpp"
+						Description="MOC goodsModify.h"
+						Outputs="debug\moc_goodsModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;goodsModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 goodsModify.h -o release\moc_goodsModify.cpp"
+						Description="MOC goodsModify.h"
+						Outputs="release\moc_goodsModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="management.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;management.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 management.h -o debug\moc_management.cpp"
+						Description="MOC management.h"
+						Outputs="debug\moc_management.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;management.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 management.h -o release\moc_management.cpp"
+						Description="MOC management.h"
+						Outputs="release\moc_management.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="present.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;present.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 present.h -o debug\moc_present.cpp"
+						Description="MOC present.h"
+						Outputs="debug\moc_present.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;present.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 present.h -o release\moc_present.cpp"
+						Description="MOC present.h"
+						Outputs="release\moc_present.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="presentModify.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;presentModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 presentModify.h -o debug\moc_presentModify.cpp"
+						Description="MOC presentModify.h"
+						Outputs="debug\moc_presentModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;presentModify.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 presentModify.h -o release\moc_presentModify.cpp"
+						Description="MOC presentModify.h"
+						Outputs="release\moc_presentModify.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="queryThread.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;queryThread.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 queryThread.h -o debug\moc_queryThread.cpp"
+						Description="MOC queryThread.h"
+						Outputs="debug\moc_queryThread.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;queryThread.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 queryThread.h -o release\moc_queryThread.cpp"
+						Description="MOC queryThread.h"
+						Outputs="release\moc_queryThread.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="right.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;right.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 right.h -o debug\moc_right.cpp"
+						Description="MOC right.h"
+						Outputs="debug\moc_right.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;right.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 right.h -o release\moc_right.cpp"
+						Description="MOC right.h"
+						Outputs="release\moc_right.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="sell.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;sell.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 sell.h -o debug\moc_sell.cpp"
+						Description="MOC sell.h"
+						Outputs="debug\moc_sell.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;sell.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 sell.h -o release\moc_sell.cpp"
+						Description="MOC sell.h"
+						Outputs="release\moc_sell.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="specialOP.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;specialOP.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 specialOP.h -o debug\moc_specialOP.cpp"
+						Description="MOC specialOP.h"
+						Outputs="debug\moc_specialOP.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;specialOP.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 specialOP.h -o release\moc_specialOP.cpp"
+						Description="MOC specialOP.h"
+						Outputs="release\moc_specialOP.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="stock.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;stock.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 stock.h -o debug\moc_stock.cpp"
+						Description="MOC stock.h"
+						Outputs="debug\moc_stock.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;stock.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 stock.h -o release\moc_stock.cpp"
+						Description="MOC stock.h"
+						Outputs="release\moc_stock.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="userLogin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;userLogin.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 userLogin.h -o debug\moc_userLogin.cpp"
+						Description="MOC userLogin.h"
+						Outputs="debug\moc_userLogin.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;userLogin.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtSql&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;.&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 userLogin.h -o release\moc_userLogin.cpp"
+						Description="MOC userLogin.h"
+						Outputs="release\moc_userLogin.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\icon.res">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\icon.res">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_associator.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_associator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_associatorModify.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_associatorModify.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_databaseSet.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_databaseSet.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_depot.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_depot.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_employee.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_employee.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_employeeModify.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_employeeModify.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_goods.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_goods.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_goodsModify.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_goodsModify.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_management.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_management.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_present.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_present.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_presentModify.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_presentModify.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_queryThread.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_queryThread.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_right.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_right.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_sell.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_sell.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_specialOP.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_specialOP.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_stock.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_stock.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_userLogin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_userLogin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\qrc_management.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\qrc_management.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="ui_associator.h" />
+			<File
+				RelativePath="ui_associatorModify.h" />
+			<File
+				RelativePath="ui_databaseSet.h" />
+			<File
+				RelativePath="ui_depot.h" />
+			<File
+				RelativePath="ui_employee.h" />
+			<File
+				RelativePath="ui_employeeModify.h" />
+			<File
+				RelativePath="ui_goods.h" />
+			<File
+				RelativePath="ui_goodsModify.h" />
+			<File
+				RelativePath="ui_management.h" />
+			<File
+				RelativePath="ui_present.h" />
+			<File
+				RelativePath="ui_presentModify.h" />
+			<File
+				RelativePath="ui_right.h" />
+			<File
+				RelativePath="ui_sell.h" />
+			<File
+				RelativePath="ui_specialOP.h" />
+			<File
+				RelativePath="ui_stock.h" />
+			<File
+				RelativePath="ui_userLogin.h" />
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="associator.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;associator.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe associator.ui -o ui_associator.h"
+						Description="UIC associator.ui"
+						Outputs="ui_associator.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;associator.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe associator.ui -o ui_associator.h"
+						Description="UIC associator.ui"
+						Outputs="ui_associator.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="associatorModify.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;associatorModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe associatorModify.ui -o ui_associatorModify.h"
+						Description="UIC associatorModify.ui"
+						Outputs="ui_associatorModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;associatorModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe associatorModify.ui -o ui_associatorModify.h"
+						Description="UIC associatorModify.ui"
+						Outputs="ui_associatorModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="databaseSet.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;databaseSet.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe databaseSet.ui -o ui_databaseSet.h"
+						Description="UIC databaseSet.ui"
+						Outputs="ui_databaseSet.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;databaseSet.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe databaseSet.ui -o ui_databaseSet.h"
+						Description="UIC databaseSet.ui"
+						Outputs="ui_databaseSet.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="depot.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;depot.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe depot.ui -o ui_depot.h"
+						Description="UIC depot.ui"
+						Outputs="ui_depot.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;depot.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe depot.ui -o ui_depot.h"
+						Description="UIC depot.ui"
+						Outputs="ui_depot.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="employee.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;employee.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe employee.ui -o ui_employee.h"
+						Description="UIC employee.ui"
+						Outputs="ui_employee.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;employee.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe employee.ui -o ui_employee.h"
+						Description="UIC employee.ui"
+						Outputs="ui_employee.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="employeeModify.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;employeeModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe employeeModify.ui -o ui_employeeModify.h"
+						Description="UIC employeeModify.ui"
+						Outputs="ui_employeeModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;employeeModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe employeeModify.ui -o ui_employeeModify.h"
+						Description="UIC employeeModify.ui"
+						Outputs="ui_employeeModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="goods.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;goods.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe goods.ui -o ui_goods.h"
+						Description="UIC goods.ui"
+						Outputs="ui_goods.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;goods.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe goods.ui -o ui_goods.h"
+						Description="UIC goods.ui"
+						Outputs="ui_goods.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="goodsModify.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;goodsModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe goodsModify.ui -o ui_goodsModify.h"
+						Description="UIC goodsModify.ui"
+						Outputs="ui_goodsModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;goodsModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe goodsModify.ui -o ui_goodsModify.h"
+						Description="UIC goodsModify.ui"
+						Outputs="ui_goodsModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="management.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;management.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe management.ui -o ui_management.h"
+						Description="UIC management.ui"
+						Outputs="ui_management.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;management.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe management.ui -o ui_management.h"
+						Description="UIC management.ui"
+						Outputs="ui_management.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="present.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;present.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe present.ui -o ui_present.h"
+						Description="UIC present.ui"
+						Outputs="ui_present.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;present.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe present.ui -o ui_present.h"
+						Description="UIC present.ui"
+						Outputs="ui_present.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="presentModify.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;presentModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe presentModify.ui -o ui_presentModify.h"
+						Description="UIC presentModify.ui"
+						Outputs="ui_presentModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;presentModify.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe presentModify.ui -o ui_presentModify.h"
+						Description="UIC presentModify.ui"
+						Outputs="ui_presentModify.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="right.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;right.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe right.ui -o ui_right.h"
+						Description="UIC right.ui"
+						Outputs="ui_right.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;right.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe right.ui -o ui_right.h"
+						Description="UIC right.ui"
+						Outputs="ui_right.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="sell.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;sell.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe sell.ui -o ui_sell.h"
+						Description="UIC sell.ui"
+						Outputs="ui_sell.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;sell.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe sell.ui -o ui_sell.h"
+						Description="UIC sell.ui"
+						Outputs="ui_sell.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="specialOP.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;specialOP.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe specialOP.ui -o ui_specialOP.h"
+						Description="UIC specialOP.ui"
+						Outputs="ui_specialOP.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;specialOP.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe specialOP.ui -o ui_specialOP.h"
+						Description="UIC specialOP.ui"
+						Outputs="ui_specialOP.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="stock.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;stock.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe stock.ui -o ui_stock.h"
+						Description="UIC stock.ui"
+						Outputs="ui_stock.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;stock.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe stock.ui -o ui_stock.h"
+						Description="UIC stock.ui"
+						Outputs="ui_stock.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="userLogin.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;userLogin.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe userLogin.ui -o ui_userLogin.h"
+						Description="UIC userLogin.ui"
+						Outputs="ui_userLogin.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe;userLogin.ui"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\uic.exe userLogin.ui -o ui_userLogin.h"
+						Description="UIC userLogin.ui"
+						Outputs="ui_userLogin.h"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="Resources\ass" />
+			<File
+				RelativePath="Resources\backcolor.jpg" />
+			<File
+				RelativePath="backgroud" />
+			<File
+				RelativePath="Resources\client" />
+			<File
+				RelativePath="Resources\database" />
+			<File
+				RelativePath="Resources\depot" />
+			<File
+				RelativePath="Resources\emp" />
+			<File
+				RelativePath="Resources\goods" />
+			<File
+				RelativePath="Resources\help.gif" />
+			<File
+				RelativePath="Resources\ico.ico" />
+			<File
+				RelativePath="image.jpg" />
+			<File
+				RelativePath="Resources\login" />
+			<File
+				RelativePath="management.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe;Resources\ass backgroud image.jpg;Resources\ass modify backgroud image.jpg;Resources\backcolor.jpg;Resources\client backgroud image.jpg;Resources\database backgroud image.jpg;Resources\depot backgroud image.jpg;Resources\emp backgroud image.jpg;Resources\emp modify backgroud image.jpg;Resources\goods backgroud image.jpg;Resources\goods modify backgroud image.jpg;Resources\help.gif;Resources\ico.ico;Resources\login backgroud image.jpg;Resources\op backgroud image.jpg;Resources\pres backgroud image.jpg;Resources\pres modify backgroud image.jpg;Resources\pres rec backgroud image.jpg;Resources\right backgroud image.jpg;Resources\sell backgroud image.jpg;Resources\stock backgroud image.jpg;management.qrc"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe -name management management.qrc -o debug\qrc_management.cpp"
+						Description="RCC management.qrc"
+						Outputs="debug\qrc_management.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe;Resources\ass backgroud image.jpg;Resources\ass modify backgroud image.jpg;Resources\backcolor.jpg;Resources\client backgroud image.jpg;Resources\database backgroud image.jpg;Resources\depot backgroud image.jpg;Resources\emp backgroud image.jpg;Resources\emp modify backgroud image.jpg;Resources\goods backgroud image.jpg;Resources\goods modify backgroud image.jpg;Resources\help.gif;Resources\ico.ico;Resources\login backgroud image.jpg;Resources\op backgroud image.jpg;Resources\pres backgroud image.jpg;Resources\pres modify backgroud image.jpg;Resources\pres rec backgroud image.jpg;Resources\right backgroud image.jpg;Resources\sell backgroud image.jpg;Resources\stock backgroud image.jpg;management.qrc"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe -name management management.qrc -o release\qrc_management.cpp"
+						Description="RCC management.qrc"
+						Outputs="release\qrc_management.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="modify" />
+			<File
+				RelativePath="Resources\op" />
+			<File
+				RelativePath="Resources\pres" />
+			<File
+				RelativePath="rec" />
+			<File
+				RelativePath="Resources\right" />
+			<File
+				RelativePath="Resources\sell" />
+			<File
+				RelativePath="Resources\stock" />
+		</Filter>
+		<File
+			RelativePath="icon.rc" />
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
